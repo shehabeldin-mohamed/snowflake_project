@@ -1,5 +1,5 @@
 # snowflake_project
-This project showcases medallion architecture. The project is done using local airflow setup with snowflake. The pipeline starts by  a csv file into the bronze layer, cleans it and then loads it to the silver layer, and finally to the gold where it is ready for reporting. You can find the ddl scripts, time travel, and procedures used in snowflake for this project in the snowflake folder.
+This project showcases medallion architecture. The project is done using local airflow setup with snowflake. The pipeline starts by loading a csv file into the bronze layer, cleans it and then loads it to the silver layer, and finally to the gold where it is ready for reporting. You can find the ddl scripts, time travel, and procedures used in snowflake for this project in the snowflake folder.
 
 ## Prerequisites
 .env file containing the following: 
