@@ -21,3 +21,6 @@ CREATE OR REPLACE TABLE CLEAN(
     ticket_type VARCHAR,
     passenger_status VARCHAR
 );
+
+CREATE OR REPLACE STREAM silver_stream 
+ON TABLE CLEAN;
